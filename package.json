@@ -28,8 +28,6 @@
     "build:website": "tsc -b && vite build -c vite.website.config.ts",
     "prebuild": "npm run lint",
     "prepublishOnly": "npm run build",
-    "postpublish": "npm run deploy",
-    "deploy": "gh-pages -d dist-website",
     "lint": "eslint . && tsc -b",
     "preview": "vite preview -c vite.website.config.ts"
   },
