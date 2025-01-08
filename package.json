@@ -1,7 +1,8 @@
 {
   "name": "react-highlighter-words",
-  "version": "0.21.2",
+  "version": "0.21.3",
   "description": "React component to highlight words within a larger body of text",
+  "types": "./dist/react-highlighter-words.es.d.ts",
   "files": [
     "dist",
     "src",
