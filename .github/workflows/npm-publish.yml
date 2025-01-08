@@ -16,7 +16,7 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm test
-      - run: npm build
+      - run: npm run build
 
   publish-npm:
     needs: build
@@ -55,8 +55,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './dist-website'
+          path: "./dist-website"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-   
