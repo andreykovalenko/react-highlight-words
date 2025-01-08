@@ -4,6 +4,10 @@
 
 - Future proof react-highlight-words-core
 
+##### 0.21.1
+
+- fix: github workflow
+
 ##### 0.21.0
 
 - Replace Babel with Vite

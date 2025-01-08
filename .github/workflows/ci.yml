@@ -1,11 +1,19 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Test and Build on Push
 
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches:
+      - "**" # Run on all branches
+    tags-ignore:
+      - "v*" # Ignore tags that start with 'v' (commonly used for releases)
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.event_name != 'release' # Skip job if the event is a release
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
