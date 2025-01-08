@@ -23,7 +23,7 @@
     "test": "vitest --project=unit --run",
     "test:watch": "vitest --project=unit --watch",
     "start": "npm run dev",
-    "build": "npm run build:lib && build:website",
+    "build": "npm run build:lib && npm run build:website",
     "build:lib": "vite build",
     "build:website": "tsc -b && vite build -c vite.website.config.ts",
     "prebuild": "npm run lint",
