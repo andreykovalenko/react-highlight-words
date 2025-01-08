@@ -1,0 +1,21 @@
+{
+    "printWidth": 100,
+    "semi": true,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "printWidth": 200
+            }
+        },
+        {
+            "files":["**/*.css", "**/*.html"],
+            "options": {
+                "singleQuote": false
+            }
+        }
+    ],
+    "endOfLine": "auto"
+}
