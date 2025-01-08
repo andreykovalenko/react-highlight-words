@@ -1,4 +1,9 @@
+ 
 <img src="https://cloud.githubusercontent.com/assets/29597/11913937/0d2dcd78-a629-11e5-83e7-6a17b6d765a5.png" width="260" height="260">
+
+[![Publish NPM Package & GitHub Pages](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/npm-publish.yml)
+[![Test and Build on Push](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/ci.yml/badge.svg)](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/ci.yml)
+
 
 React component to highlight words within a larger body of text.
 
