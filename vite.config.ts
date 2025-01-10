@@ -16,5 +16,14 @@ export default defineConfig({
       name: LIB_NAME,
       fileName: (format) => `${LIB_NAME}.${format}.js`,
     },
+    rollupOptions: {
+      external: ["react", "react-dom", "react/jsx-runtime"],
+      output: {
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM",
+        },
+      },
+    },
   },
 });
