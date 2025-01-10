@@ -1,8 +1,10 @@
- 
-<img src="https://cloud.githubusercontent.com/assets/29597/11913937/0d2dcd78-a629-11e5-83e7-6a17b6d765a5.png" width="260" height="260">
+ <img src="https://cloud.githubusercontent.com/assets/29597/11913937/0d2dcd78-a629-11e5-83e7-6a17b6d765a5.png" width="260" height="260">
 
-[![Publish NPM Package & GitHub Pages](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/npm-publish.yml)
-[![Test and Build on Push](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/ci.yml/badge.svg)](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/ci.yml)
+[![Build Status](https://github.com/andreykovalenko/react-highlight-words/actions/workflows/ci.yml/badge.svg)](https://github.com/andreykovalenko/react-highlight-words/actions/actions)
+[![npm version](https://badge.fury.io/js/react-highlighter-words.svg)](http://badge.fury.io/js/react-highlighter-words)
+[![npm downloads](https://img.shields.io/npm/dm/react-highlighter-words.svg?style=flat-square)](https://www.npmjs.com/package/react-highlighter-words)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
+ 
 
 
 React component to highlight words within a larger body of text.
